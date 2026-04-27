@@ -392,3 +392,10 @@
 .navbar4.sticky {
   top: 0;
 }
+body { font-size: 16px; }
+
+@media (min-width: 768px) {
+  body { font-size: 18px; }
+  .container { display: flex; }
+}
+
